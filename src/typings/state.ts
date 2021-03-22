@@ -18,3 +18,9 @@ export interface IJoinFormData {
   certYn: boolean
   agree: boolean
 }
+
+export type ISwiperList  = ISwiperItem[]
+export interface ISwiperItem {
+  title: string
+  backgroundColor: string
+}

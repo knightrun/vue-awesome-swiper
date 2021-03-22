@@ -18,7 +18,7 @@ export default {
   },
   css: [
     '@/static/css/reset.css',
-    '@/assets/styles/common.scss',
+    { src: '@/assets/styles/common.scss', lang: 'scss' },
   ],
   plugins: [
     { src: '~/plugins/commonComponents', ssr: true },

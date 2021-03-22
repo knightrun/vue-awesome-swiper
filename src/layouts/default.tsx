@@ -7,7 +7,6 @@ export default class DefaultLayout extends Vue {
     return (
       <div class="container">
         <nuxt />
-        <portal-target name="modal"/>
       </div>
     )
   }

@@ -7,3 +7,24 @@
     clip: rect(1px, 1px, 1px, 1px);
     clip-path: inset(50%);
 }
+
+.my_swiper{
+    position: relative;
+    width: 1020px;
+    margin: 0 auto;
+}
+
+.swiper-item{
+    width: 230px;
+    height: 230px;
+    line-height: 230px;
+    color: #fff;
+    font-size: 24px;
+    text-align: center;
+}
+
+button{
+    cursor: pointer;
+    font-size: 16px;
+    color: #fff !important;
+}
